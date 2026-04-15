@@ -248,13 +248,15 @@ export const destinos = [
     nombre: "Machu Picchu",
     país: "Perú",
     descripción: "Antigua ciudadela inca en lo alto de los Andes, Patrimonio de la Humanidad. Un destino imprescindible para los amantes de la historia y la arqueología.",
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/500px-Machu_Picchu%2C_Peru_%282018%29.jpg",
     puntajePromedio: 4.8,
   },
-  {
+  { 
     id: 2,
     nombre: "Lago Titicaca",
     país: "Perú / Bolivia",
     descripción: "El lago navegable más alto del mundo, hogar de pueblos indígenas y islas flotantes. Experiencia única en la cultura andina.",
+    imagen: "https://d2l4159s3q6ni.cloudfront.net/resize/1440x800/filters:max_age(2604800):quality(85)/s3/dam/photos/92/cb/14/82/21b6cca63c91ba68bcb2e3f641a8f95679ba74ad94ef2248037fd680.jpg",
     puntajePromedio: 4.5,
   },
   {
@@ -262,6 +264,7 @@ export const destinos = [
     nombre: "Desierto de Atacama",
     país: "Chile",
     descripción: "Desierto árido con paisajes lunares, estrellas brillantes y formaciones rocosas espectaculares. Ideal para astronomía.",
+    imagen: "https://wp-content.miviaje.com/2019/09/desierto-atacama.jpg",
     puntajePromedio: 4.6,
   },
   {
@@ -269,6 +272,7 @@ export const destinos = [
     nombre: "Cusco",
     país: "Perú",
     descripción: "Capital histórica del Imperio Inca, llena de arquitectura colonial y sitios arqueológicos. Centro cultural de los Andes.",
+    imagen: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmg8stVHKpJXXf_nb3a4sYZoPcj7M9s9FIYMWsvRTH4CRn18zz_KooQgx-uSo0K8TLwRUhbR3lQRWCmNOkwTfixF2H21PI97MUvYNduuBphHSgKZBFULCEGiMdMm7ezpq0T1EgYMM1pq8/s1600/Cusco_3_b.jpg",
     puntajePromedio: 4.7,
   },
   {
@@ -276,6 +280,7 @@ export const destinos = [
     nombre: "Patagonia",
     país: "Argentina / Chile",
     descripción: "Región montañosa con glaciares imponentes, torres de granito y paisajes salvajes. Paraíso para trekking y aventura.",
+    imagen: "https://blog.howlanders.com/wp-content/uploads/2021/01/patagonia-argentina.jpg",
     puntajePromedio: 4.9,
   },
   {
@@ -283,6 +288,7 @@ export const destinos = [
     nombre: "Cataratas del Iguazú",
     país: "Argentina / Brasil",
     descripción: "Espectaculares cascadas de agua, uno de los sitios naturales más impresionantes del mundo. Maravilla natural sudamericana.",
+    imagen: "https://www.amerian.com/wp-content/uploads/2021/11/vista-panoramica-cataratas-pirayu-hotel-resort-puerto-iguazu-misiones-argentina.jpeg",
     puntajePromedio: 4.8,
   },
   {
@@ -290,6 +296,7 @@ export const destinos = [
     nombre: "La Paz",
     país: "Bolivia",
     descripción: "Capital más alta del mundo, rodeada de montañas nevadas. Ciudad colorida con mercados tradicionales y telesférico.",
+    imagen: "https://content.r9cdn.net/rimg/dimg/59/66/56b9c63c-city-13346-164dcfc0a70.jpg?width=1366&height=768&xhint=3450&yhint=2249&crop=true",
     puntajePromedio: 4.3,
   },
   {
@@ -297,6 +304,7 @@ export const destinos = [
     nombre: "Salar de Uyuni",
     país: "Bolivia",
     descripción: "Llanura de sal más grande del mundo con espejo de agua. Paisaje surrealista e impresionante durante la época seca.",
+    imagen: "https://www.civitatis.com/f/bolivia/uyuni/excursion-salar-uyuni-589x392.jpg",
     puntajePromedio: 4.7,
   },
   {
@@ -304,6 +312,7 @@ export const destinos = [
     nombre: "Buenos Aires",
     país: "Argentina",
     descripción: "Ciudad vibrante con tango, arquitectura europea y gastronomía de clase mundial. La París de Sudamérica.",
+    imagen: "https://www.bens-lhotelpalermo.com/assets/cache/uploads/bens-hotel-palermo/buenos-aires/1920x1080/obelisco-buenos-aires-1738076906.jpeg",
     puntajePromedio: 4.6,
   },
   {
@@ -311,6 +320,7 @@ export const destinos = [
     nombre: "Mendoza",
     país: "Argentina",
     descripción: "Región vitivinícola famosa por sus viñedos y vinos Malbec de clase mundial. Paisajes andinos de ensueño.",
+    imagen: "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/20/a5/f9.jpg",
     puntajePromedio: 4.5,
   },
   {
@@ -318,6 +328,7 @@ export const destinos = [
     nombre: "Geisers del Tatio",
     país: "Chile",
     descripción: "Geisers en el altiplano, los segundos más altos del mundo. Espectáculo natural al amanecer.",
+    imagen: "https://storage.googleapis.com/bkt-chile-travel/2024/08/1523cbcd-geysers-del-tatio-1.jpg",
     puntajePromedio: 4.4,
   },
   {
@@ -325,6 +336,7 @@ export const destinos = [
     nombre: "Arequipa",
     país: "Perú",
     descripción: "Segunda ciudad de Perú, construida con piedra blanca volcánica. Joya arquitectónica colonial.",
+    imagen: "https://www.raptravelperu.com/wp-content/uploads/portada-arequipa.webp",
     puntajePromedio: 4.4,
   },
   {
@@ -332,6 +344,7 @@ export const destinos = [
     nombre: "Copacabana",
     país: "Bolivia",
     descripción: "Pueblo costero del Lago Titicaca, sitio sagrado andino. Atmósfera mística y espiritual.",
+    imagen: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/57/8a/a2/copacabana.jpg?w=900&h=500&s=1",
     puntajePromedio: 4.5,
   },
   {
@@ -339,6 +352,7 @@ export const destinos = [
     nombre: "Torres del Paine",
     país: "Chile",
     descripción: "Parque nacional con montañas de granito emblemáticas, glaciares y lagos glaciares. Trekking de clase mundial.",
+    imagen: "https://blog.lastorres.com/hubfs/15042024-_JBA5184.jpg",
     puntajePromedio: 4.8,
   },
   {
@@ -346,6 +360,7 @@ export const destinos = [
     nombre: "Líneas de Nazca",
     país: "Perú",
     descripción: "Antigua civilización con misteriosas líneas dibujadas en el desierto. Misterio arqueológico fascinante.",
+    imagen: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY9knHvysvG3PM1rpp5h1WFpsfSnELUxMMj3wjZxJH3lyBovK34Jz9aHSizfhEJ33cQt-H-ocRa_FBVe4Rtlnxr40r9Sbp5E00KbOCdoKfILNyKTONO5CUhjCYAsy26YnViPbGzHSeAGI/s1600/lineas-nasca.jpg",
     puntajePromedio: 4.3,
   },
   {
@@ -353,6 +368,7 @@ export const destinos = [
     nombre: "Santiago",
     país: "Chile",
     descripción: "Capital moderna de Chile con vista a los Andes. Centro cultural y gastronómico de excelencia.",
+    imagen: "https://www.civitatis.com/blog/wp-content/uploads/2024/09/panorama-santiago-de-chile.jpg",
     puntajePromedio: 4.4,
   },
   {
@@ -360,6 +376,7 @@ export const destinos = [
     nombre: "Valle Sagrado",
     país: "Perú",
     descripción: "Valle sagrado inca con pueblos tradicionales, mercados indígenas y restos arqueológicos. Cuna de la cultura quechua.",
+    imagen: "https://image-tc.galaxy.tf/wijpeg-7s1v8e5km8dojs4ckc2dhyi4t/valle-sagrado-destino-unico_wide.jpg?crop=26%2C0%2C1548%2C871",
     puntajePromedio: 4.6,
   },
   {
@@ -367,6 +384,7 @@ export const destinos = [
     nombre: "Valle de Colchagua",
     país: "Chile",
     descripción: "Valle vitivinícola con hermosas viñas y arquitectura colonial. Experiencia enogastronómica sublime.",
+    imagen: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/eb/7f/30/colchagua-valley.jpg?w=1200&h=-1&s=1",
     puntajePromedio: 4.5,
   },
   {
@@ -374,6 +392,7 @@ export const destinos = [
     nombre: "Cochabamba",
     país: "Bolivia",
     descripción: "Ciudad en el corazón de Bolivia, conocida por su comida tradicional y gente amable. Auténtica Sudamérica.",
+    imagen: "https://viajerosxbolivia.com/wp-content/uploads/Cochabamba-Bolivia.png",
     puntajePromedio: 4.2,
   },
   {
@@ -381,6 +400,7 @@ export const destinos = [
     nombre: "Saltos del Arapey",
     país: "Uruguay",
     descripción: "Cascadas naturales en el río Arapey, destino natural sereno y refrescante. Descanso en la naturaleza.",
+    imagen: "https://lh4.googleusercontent.com/proxy/-mTET6bG0CSzyykBa55_FrJdf4s5GZGRJmZp0dicLzvQk41bL0aUD6CZCpLqfXrHK5-c6ssEy61-bDgmrG-8zjvq45z5KrWkpR1BoRY_UIN94-a6Ik9lgo5mEWZS2ZQmptRA",
     puntajePromedio: 4.4,
   },
 ];
